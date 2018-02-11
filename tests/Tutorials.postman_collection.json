@@ -12,16 +12,13 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "e9aa0f94-0c1b-441c-bbf4-9f24115a8be1",
+						"id": "625ccb66-2611-4738-9ab6-553524522559",
 						"type": "text/javascript",
 						"exec": [
 							"pm.test(\"Body matches string\", function () {",
 							"    pm.expect(pm.response.text()).to.include(\"qui est esse\");",
 							"});",
 							"",
-							"pm.test(\"Response time is less than 200ms\", function () {",
-							"    pm.expect(pm.response.responseTime).to.be.below(200);",
-							"});",
 							"",
 							"",
 							"",

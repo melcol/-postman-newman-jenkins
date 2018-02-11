@@ -71,7 +71,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "b0026638-46ac-40e7-84b9-bb2e13c15633",
+						"id": "455b1dbc-5da0-4ca8-bd9f-5d12bf4d06c4",
 						"type": "text/javascript",
 						"exec": [
 							"pm.test(\"Status code is 200\", function () {",
@@ -80,8 +80,8 @@
 							"",
 							"",
 							"",
-							"pm.test(\"Response time is less than 1000ms\", function () {",
-							"    pm.expect(pm.response.responseTime).to.be.below(1000);",
+							"pm.test(\"Response time is less than 10000ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(10000);",
 							"});"
 						]
 					}
@@ -92,7 +92,7 @@
 				"header": [],
 				"body": {},
 				"url": {
-					"raw": "https://jsonplaceholder.typicode.com//posts/1",
+					"raw": "https://jsonplaceholder.typicode.com/posts/1",
 					"protocol": "https",
 					"host": [
 						"jsonplaceholder",
@@ -100,7 +100,6 @@
 						"com"
 					],
 					"path": [
-						"",
 						"posts",
 						"1"
 					]

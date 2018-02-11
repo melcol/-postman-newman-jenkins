@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Project for storing Postman tests",
   "scripts": {
-    "api-tests-qa": "newman run Tutorials.postman_collection.json"
+    "api-tests-qa": "newman run tests/Tutorials.postman_collection.json"
   },
   "author": "Melvin Colaco",
   "dependencies": {
